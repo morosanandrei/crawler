@@ -1,0 +1,27 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "testing a crawler",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morosanandrei/crawler.git"
+  },
+  "author": "Andrei Morosan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morosanandrei/crawler/issues"
+  },
+  "homepage": "https://github.com/morosanandrei/crawler#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.6",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7"
+  }
+}
